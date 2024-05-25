@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Card from "./Card";
 import { DataHome } from "../DataHome";
 import HomeImage from "/src/assets/home-section.webp";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   function HomeContent() {
@@ -22,12 +23,12 @@ export default function Home() {
             Find the perfect kicks that blend fashion and function, ensuring
             every step is a statement. Step into Sneaker Paradise!
           </p>
-          <a
-            href="Collections"
+          <Link
+            to="/Collections"
             className="shop-btn bg-orange-400 hover:bg-orange-500 transition-all duration-300 text-white px-8 py-3 sm:px-12 sm:py-4 rounded-lg text-lg sm:text-xl"
           >
             Shop Now
-          </a>
+          </Link>
         </div>
         <div className="col-span-12 md:col-span-6 mt-8 md:mt-0 mb-5 flex justify-center md:justify-end">
           <img
