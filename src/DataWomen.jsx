@@ -1,0 +1,42 @@
+export const DataWomen = [
+  {
+    id: 1,
+    img: "src/assets/product-1.jpeg",
+    model: "Nike",
+    price: "$ 80",
+    name: "VALOUR BLUE",
+    rate: 5,
+  },
+  {
+    id: 2,
+    img: "src/assets/product-2.jpeg",
+    model: "Nike",
+    price: "$ 85",
+    name: "RACER BLUE",
+    rate: 4,
+  },
+  {
+    id: 5,
+    img: "src/assets/product-5.png",
+    model: "Nike",
+    price: "$ 120",
+    name: "Vans",
+    rate: 3,
+  },
+  {
+    id: 7,
+    img: "src/assets/product-7.png",
+    model: "Addidas",
+    price: "$ 50",
+    name: "VALOUR RED",
+    rate: 5,
+  },
+  {
+    id: 9,
+    img: "src/assets/product-9.png",
+    model: "Addidas",
+    price: "$ 100",
+    name: "ADIDAS MARS",
+    rate: 3,
+  },
+];
