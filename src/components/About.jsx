@@ -3,6 +3,7 @@ import ScrollToTopButton from "./ScrollToTopBtn";
 import Footer from "./Footer";
 import MapImage from "/src/assets/map.svg";
 import CupImage from "/src/assets/cup.svg";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -115,12 +116,12 @@ export default function About() {
               everyone.
             </p>
             <div className="mt-16 text-center">
-              <a
-                href="/Collections"
+              <Link
+                to="/Collections"
                 className="text-white bg-orange-400 text-xl font-semibold px-20 py-4 rounded-lg hover:bg-orange-500 transition-all duration-300"
               >
                 Explore Sneakers
-              </a>
+              </Link>
             </div>
           </div>
         </div>

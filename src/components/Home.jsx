@@ -61,12 +61,12 @@ export default function Home() {
           {dataToShow}
         </div>
         <div className="text-center my-12">
-          <a
-            href="Collections"
+          <Link
+            to="/Collections"
             className="text-white bg-orange-400 text-xl font-semibold px-20 py-4 rounded-lg hover:bg-orange-500 transition-all duration-300"
           >
             See All Collection
-          </a>
+          </Link>
         </div>
       </div>
     );

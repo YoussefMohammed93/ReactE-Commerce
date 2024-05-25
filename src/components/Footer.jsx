@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <div>
@@ -16,13 +18,13 @@ export default function Footer() {
           <ul className="mt-1">
             <li className="text-xl font-bold text-white mb-5">About</li>
             <li className="text-lg text-white opacity-80 hover:opacity-100 transition duration-200 my-1">
-              <a href="/About">About us</a>
+              <Link to="/About">About us</Link>
             </li>
             <li className="text-lg text-white opacity-80 hover:opacity-100 transition duration-200 my-1">
-              <a href="/About">Features</a>
+              <Link to="/About">Features</Link>
             </li>
             <li className="text-lg text-white opacity-80 hover:opacity-100 transition duration-200 my-1">
-              <a href="/About">News & Blog</a>
+              <Link to="/About">News & Blog</Link>
             </li>
           </ul>
         </div>
@@ -59,13 +61,13 @@ export default function Footer() {
           <ul className="mt-1">
             <li className="text-xl font-bold text-white mb-5">Support</li>
             <li className="text-lg text-white opacity-80 hover:opacity-100 transition duration-200 my-1">
-              <a href="/About">FAQs</a>
+              <Link to="/About">FAQs</Link>
             </li>
             <li className="text-lg text-white opacity-80 hover:opacity-100 transition duration-200 my-1">
-              <a href="/About">Support Center</a>
+              <Link to="/About">Support Center</Link>
             </li>
             <li className="text-lg text-white opacity-80 hover:opacity-100 transition duration-200 my-1">
-              <a href="/Contact">Contact Us</a>
+              <Link to="/Contact">Contact Us</Link>
             </li>
           </ul>
         </div>
