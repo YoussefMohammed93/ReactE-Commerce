@@ -3,6 +3,7 @@ import { CartContext } from "./CartContext";
 import Header from "./Header";
 import ScrollToTopButton from "./ScrollToTopBtn";
 import Footer from "./Footer";
+import CartImage from "src/assets/cart.png";
 
 export default function Cart() {
   const { cartItems, setCartItems, cartCount } = useContext(CartContext);
@@ -111,10 +112,7 @@ export default function Cart() {
                   Your Cart Is Empty
                 </h2>
                 <div>
-                  <img
-                    src="src/assets/cart.png"
-                    className="cart-img w-64 h-64"
-                  />
+                  <img src={CartImage} className="cart-img w-64 h-64" />
                 </div>
               </div>
             ) : (

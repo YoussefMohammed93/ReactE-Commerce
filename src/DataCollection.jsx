@@ -1,7 +1,20 @@
+import product1 from "src/assets/product-1.jpeg";
+import product2 from "src/assets/product-2.jpeg";
+import product3 from "src/assets/product-3.png";
+import product4 from "src/assets/product-4.png";
+import product5 from "src/assets/product-5.png";
+import product6 from "src/assets/product-6.png";
+import product7 from "src/assets/product-7.png";
+import product8 from "src/assets/product-8.png";
+import product9 from "src/assets/product-9.png";
+import product10 from "src/assets/product-10.png";
+import product11 from "src/assets/product-11.png";
+import product12 from "src/assets/product-12.png";
+
 export const DataCollections = [
   {
     id: 1,
-    img: "src/assets/product-1.jpeg",
+    img: product1,
     model: "Nike",
     price: "$ 80",
     name: "VALOUR BLUE",
@@ -9,7 +22,7 @@ export const DataCollections = [
   },
   {
     id: 2,
-    img: "src/assets/product-2.jpeg",
+    img: product2,
     model: "Nike",
     price: "$ 85",
     name: "RACER BLUE",
@@ -17,7 +30,7 @@ export const DataCollections = [
   },
   {
     id: 3,
-    img: "src/assets/product-3.png",
+    img: product3,
     model: "Addidas",
     price: "$ 100",
     name: "JORDAN MARS",
@@ -25,7 +38,7 @@ export const DataCollections = [
   },
   {
     id: 4,
-    img: "src/assets/product-4.png",
+    img: product4,
     model: "Nike",
     price: "$ 120",
     name: "Nike Sneakers",
@@ -33,7 +46,7 @@ export const DataCollections = [
   },
   {
     id: 5,
-    img: "src/assets/product-5.png",
+    img: product5,
     model: "Nike",
     price: "$ 120",
     name: "Vans",
@@ -41,7 +54,7 @@ export const DataCollections = [
   },
   {
     id: 6,
-    img: "src/assets/product-6.png",
+    img: product6,
     model: "Nike",
     price: "$ 100",
     name: "Cosmic Unity",
@@ -49,7 +62,7 @@ export const DataCollections = [
   },
   {
     id: 7,
-    img: "src/assets/product-7.png",
+    img: product7,
     model: "Addidas",
     price: "$ 50",
     name: "VALOUR RED",
@@ -57,7 +70,7 @@ export const DataCollections = [
   },
   {
     id: 8,
-    img: "src/assets/product-8.png",
+    img: product8,
     model: "Rav",
     price: "$ 150",
     name: "RAVER WHITE",
@@ -65,7 +78,7 @@ export const DataCollections = [
   },
   {
     id: 9,
-    img: "src/assets/product-9.png",
+    img: product9,
     model: "Addidas",
     price: "$ 100",
     name: "ADIDAS MARS",
@@ -73,7 +86,7 @@ export const DataCollections = [
   },
   {
     id: 10,
-    img: "src/assets/product-10.png",
+    img: product10,
     model: "Rav",
     price: "$ 135",
     name: "Rav Sneakers",
@@ -81,7 +94,7 @@ export const DataCollections = [
   },
   {
     id: 11,
-    img: "src/assets/product-11.png",
+    img: product11,
     model: "Nike",
     price: "$ 120",
     name: "Nike Vans",
@@ -89,7 +102,7 @@ export const DataCollections = [
   },
   {
     id: 12,
-    img: "src/assets/product-12.png",
+    img: product12,
     model: "Rav",
     price: "$ 75",
     name: "Yellow Sneakers",

@@ -1,7 +1,15 @@
+import product3 from "src/assets/product-3.png";
+import product4 from "src/assets/product-4.png";
+import product6 from "src/assets/product-6.png";
+import product8 from "src/assets/product-8.png";
+import product10 from "src/assets/product-10.png";
+import product11 from "src/assets/product-11.png";
+import product12 from "src/assets/product-12.png";
+
 export const DataMen = [
   {
     id: 3,
-    img: "src/assets/product-3.png",
+    img: product3,
     model: "Addidas",
     price: "$ 100",
     name: "JORDAN MARS",
@@ -9,7 +17,7 @@ export const DataMen = [
   },
   {
     id: 4,
-    img: "src/assets/product-4.png",
+    img: product4,
     model: "Nike",
     price: "$ 120",
     name: "Nike Sneakers",
@@ -17,7 +25,7 @@ export const DataMen = [
   },
   {
     id: 6,
-    img: "src/assets/product-6.png",
+    img: product6,
     model: "Nike",
     price: "$ 100",
     name: "Cosmic Unity",
@@ -25,7 +33,7 @@ export const DataMen = [
   },
   {
     id: 8,
-    img: "src/assets/product-8.png",
+    img: product8,
     model: "Rav",
     price: "$ 150",
     name: "RAVER WHITE",
@@ -33,7 +41,7 @@ export const DataMen = [
   },
   {
     id: 10,
-    img: "src/assets/product-10.png",
+    img: product10,
     model: "Rav",
     price: "$ 135",
     name: "Rav Sneakers",
@@ -41,7 +49,7 @@ export const DataMen = [
   },
   {
     id: 11,
-    img: "src/assets/product-11.png",
+    img: product11,
     model: "Nike",
     price: "$ 120",
     name: "Nike Vans",
@@ -49,7 +57,7 @@ export const DataMen = [
   },
   {
     id: 12,
-    img: "src/assets/product-12.png",
+    img: product12,
     model: "Rav",
     price: "$ 75",
     name: "Yellow Sneakers",

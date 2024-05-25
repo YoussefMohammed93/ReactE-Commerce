@@ -1,6 +1,8 @@
 import Header from "./Header";
 import ScrollToTopButton from "./ScrollToTopBtn";
 import Footer from "./Footer";
+import MapImage from "src/assets/map.svg";
+import CupImage from "src/assets/cup.svg";
 
 export default function About() {
   return (
@@ -68,18 +70,12 @@ export default function About() {
             </div>
           </div>
           <div className="col-span-1 md:col-span-6 flex justify-center md:justify-end">
-            <img
-              src="src/assets/map.svg"
-              className="map-img w-full md:w-auto"
-            />
+            <img src={MapImage} className="map-img w-full md:w-auto" />
           </div>
         </div>
         <div className="main-padding grid grid-cols-1 md:grid-cols-12 gap-20 md:gap-0 py-10 md:py-20 bg-orange-100">
           <div className="col-span-1 md:col-span-6 flex justify-center md:justify-start">
-            <img
-              src="src/assets/cup.svg"
-              className="map-img w-full md:w-auto"
-            />
+            <img src={CupImage} className="map-img w-full md:w-auto" />
           </div>
           <div className="col-span-1 md:col-span-6">
             <div>

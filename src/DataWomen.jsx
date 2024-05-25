@@ -1,7 +1,13 @@
+import product1 from "src/assets/product-1.jpeg";
+import product2 from "src/assets/product-2.jpeg";
+import product5 from "src/assets/product-5.png";
+import product7 from "src/assets/product-7.png";
+import product9 from "src/assets/product-9.png";
+
 export const DataWomen = [
   {
     id: 1,
-    img: "src/assets/product-1.jpeg",
+    img: product1,
     model: "Nike",
     price: "$ 80",
     name: "VALOUR BLUE",
@@ -9,7 +15,7 @@ export const DataWomen = [
   },
   {
     id: 2,
-    img: "src/assets/product-2.jpeg",
+    img: product2,
     model: "Nike",
     price: "$ 85",
     name: "RACER BLUE",
@@ -17,7 +23,7 @@ export const DataWomen = [
   },
   {
     id: 5,
-    img: "src/assets/product-5.png",
+    img: product5,
     model: "Nike",
     price: "$ 120",
     name: "Vans",
@@ -25,7 +31,7 @@ export const DataWomen = [
   },
   {
     id: 7,
-    img: "src/assets/product-7.png",
+    img: product7,
     model: "Addidas",
     price: "$ 50",
     name: "VALOUR RED",
@@ -33,7 +39,7 @@ export const DataWomen = [
   },
   {
     id: 9,
-    img: "src/assets/product-9.png",
+    img: product9,
     model: "Addidas",
     price: "$ 100",
     name: "ADIDAS MARS",
