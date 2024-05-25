@@ -23,7 +23,7 @@ export default function Home() {
             every step is a statement. Step into Sneaker Paradise!
           </p>
           <a
-            href="/Collections"
+            href="Collections"
             className="shop-btn bg-orange-400 hover:bg-orange-500 transition-all duration-300 text-white px-8 py-3 sm:px-12 sm:py-4 rounded-lg text-lg sm:text-xl"
           >
             Shop Now
@@ -61,7 +61,7 @@ export default function Home() {
         </div>
         <div className="text-center my-12">
           <a
-            href="/Collections"
+            href="Collections"
             className="text-white bg-orange-400 text-xl font-semibold px-20 py-4 rounded-lg hover:bg-orange-500 transition-all duration-300"
           >
             See All Collection
