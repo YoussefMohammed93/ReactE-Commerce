@@ -71,7 +71,7 @@ export default function Header() {
               </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="/Contact"
                 className={({ isActive }) =>
                   isActive
@@ -80,7 +80,7 @@ export default function Header() {
                 }
               >
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
