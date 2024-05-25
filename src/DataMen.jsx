@@ -1,10 +1,10 @@
-import product3 from "src/assets/product-3.png";
-import product4 from "src/assets/product-4.png";
-import product6 from "src/assets/product-6.png";
-import product8 from "src/assets/product-8.png";
-import product10 from "src/assets/product-10.png";
-import product11 from "src/assets/product-11.png";
-import product12 from "src/assets/product-12.png";
+import product3 from "/src/assets/product-3.png";
+import product4 from "/src/assets/product-4.png";
+import product6 from "/src/assets/product-6.png";
+import product8 from "/src/assets/product-8.png";
+import product10 from "/src/assets/product-10.png";
+import product11 from "/src/assets/product-11.png";
+import product12 from "/src/assets/product-12.png";
 
 export const DataMen = [
   {

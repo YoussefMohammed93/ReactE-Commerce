@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import ScrollToTopButton from "./ScrollToTopBtn";
 
 export default function Contact() {
   return (
@@ -92,6 +93,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <ScrollToTopButton />
       <Footer />
     </div>
   );

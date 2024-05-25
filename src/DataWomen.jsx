@@ -1,8 +1,8 @@
-import product1 from "src/assets/product-1.jpeg";
-import product2 from "src/assets/product-2.jpeg";
-import product5 from "src/assets/product-5.png";
-import product7 from "src/assets/product-7.png";
-import product9 from "src/assets/product-9.png";
+import product1 from "/src/assets/product-1.jpeg";
+import product2 from "/src/assets/product-2.jpeg";
+import product5 from "/src/assets/product-5.png";
+import product7 from "/src/assets/product-7.png";
+import product9 from "/src/assets/product-9.png";
 
 export const DataWomen = [
   {

@@ -1,7 +1,7 @@
-import product1 from "src/assets/product-1.jpeg";
-import product2 from "src/assets/product-2.jpeg";
-import product3 from "src/assets/product-3.png";
-import product4 from "src/assets/product-4.png";
+import product1 from "/src/assets/product-1.jpeg";
+import product2 from "/src/assets/product-2.jpeg";
+import product3 from "/src/assets/product-3.png";
+import product4 from "/src/assets/product-4.png";
 
 export const DataHome = [
   {

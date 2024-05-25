@@ -1,8 +1,8 @@
 import Header from "./Header";
 import ScrollToTopButton from "./ScrollToTopBtn";
 import Footer from "./Footer";
-import MapImage from "src/assets/map.svg";
-import CupImage from "src/assets/cup.svg";
+import MapImage from "/src/assets/map.svg";
+import CupImage from "/src/assets/cup.svg";
 
 export default function About() {
   return (
