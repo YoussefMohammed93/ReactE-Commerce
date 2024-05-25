@@ -2,6 +2,7 @@ import { useState, useRef, useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { CartContext } from "./CartContext";
 import "../index.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -70,7 +71,7 @@ export default function Header() {
               </NavLink>
             </li>
             <li>
-              <NavLink
+              <Link
                 to="/Contact"
                 className={({ isActive }) =>
                   isActive
@@ -79,7 +80,7 @@ export default function Header() {
                 }
               >
                 Contact
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>

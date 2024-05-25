@@ -4,6 +4,7 @@ import Header from "./Header";
 import ScrollToTopButton from "./ScrollToTopBtn";
 import Footer from "./Footer";
 import CartImage from "/src/assets/cart.png";
+import { Link } from "react-router-dom";
 
 export default function Cart() {
   const { cartItems, setCartItems, cartCount } = useContext(CartContext);
@@ -216,8 +217,8 @@ export default function Cart() {
                   />
                 </svg>
               </button>
-              <a
-                href="/Collections"
+              <Link
+                to="/Collections"
                 className="flex justify-center mt-5 text-xl text-gray-600 hover:text-gray-800 transition duration-200"
               >
                 View Products
@@ -235,7 +236,7 @@ export default function Cart() {
                     d="m8.25 4.5 7.5 7.5-7.5 7.5"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
