@@ -1,10 +1,10 @@
+import { Link } from 'react-router-dom';
 import Header from "./Header";
-import ScrollToTopButton from "./ScrollToTopBtn";
 import Footer from "./Footer";
 import Card from "./Card";
+import ScrollToTopButton from "./ScrollToTopBtn";
 import { DataHome } from "../DataHome";
 import HomeImage from "/src/assets/home-section.webp";
-import { Link } from 'react-router-dom';
 
 export default function Home() {
   function HomeContent() {

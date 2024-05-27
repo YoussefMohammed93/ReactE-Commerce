@@ -1,9 +1,9 @@
+import { Link } from "react-router-dom";
 import Header from "./Header";
-import ScrollToTopButton from "./ScrollToTopBtn";
 import Footer from "./Footer";
+import ScrollToTopButton from "./ScrollToTopBtn";
 import MapImage from "/src/assets/map.svg";
 import CupImage from "/src/assets/cup.svg";
-import { Link } from "react-router-dom";
 
 export default function About() {
   return (

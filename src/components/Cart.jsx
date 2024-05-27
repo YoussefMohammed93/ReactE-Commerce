@@ -1,19 +1,21 @@
 import { useContext, useState } from "react";
-import { CartContext } from "./CartContext";
-import Header from "./Header";
-import ScrollToTopButton from "./ScrollToTopBtn";
-import Footer from "./Footer";
-import CartImage from "/src/assets/cart.png";
 import { Link } from "react-router-dom";
+import Header from "./Header";
+import Footer from "./Footer";
+import { CartContext } from "./CartContext";
+import ScrollToTopButton from "./ScrollToTopBtn";
+import CartImage from "/src/assets/cart.png";
 
 export default function Cart() {
-  const { cartItems, setCartItems, cartCount } = useContext(CartContext);
+  const { cartItems, setCartItems, cartCount, setCartCount } = useContext(CartContext);
   const [showMessage, setShowMessage] = useState(false);
   const [progress, setProgress] = useState(100);
 
   const handleRemove = (id) => {
     const updatedCartItems = cartItems.filter((item) => item.id !== id);
+    const removedItem = cartItems.find((item) => item.id === id);
     setCartItems(updatedCartItems);
+    setCartCount(cartCount - (removedItem ? removedItem.quantity : 0));
     localStorage.setItem("cartItems", JSON.stringify(updatedCartItems));
     showMessageHandler();
   };
@@ -26,6 +28,7 @@ export default function Cart() {
       return item;
     });
     setCartItems(updatedCartItems);
+    setCartCount(updatedCartItems.reduce((count, item) => count + item.quantity, 0));
     localStorage.setItem("cartItems", JSON.stringify(updatedCartItems));
   };
 

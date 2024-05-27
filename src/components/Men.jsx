@@ -1,8 +1,8 @@
 import Header from "./Header";
-import ScrollToTopButton from "./ScrollToTopBtn";
-import Card from "./Card";
-import { DataMen } from "../DataMen";
 import Footer from "./Footer";
+import Card from "./Card";
+import ScrollToTopButton from "./ScrollToTopBtn";
+import { DataMen } from "../DataMen";
 
 export default function Men() {
   function HomeProducts() {

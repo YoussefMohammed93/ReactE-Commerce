@@ -1,8 +1,7 @@
 import { useState, useRef, useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { CartContext } from "./CartContext";
 import "../index.css";
-import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);

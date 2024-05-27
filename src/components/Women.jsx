@@ -1,8 +1,8 @@
 import Header from "./Header";
-import ScrollToTopButton from "./ScrollToTopBtn";
-import Card from "./Card";
-import { DataWomen } from "../DataWomen";
 import Footer from "./Footer";
+import Card from "./Card";
+import ScrollToTopButton from "./ScrollToTopBtn";
+import { DataWomen } from "../DataWomen";
 
 export default function Women() {
   function HomeProducts() {

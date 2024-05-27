@@ -1,8 +1,8 @@
 import Header from "./Header";
-import ScrollToTopButton from "./ScrollToTopBtn";
-import Card from "./Card";
-import { DataCollections } from "../DataCollection";
 import Footer from "./Footer";
+import Card from "./Card";
+import ScrollToTopButton from "./ScrollToTopBtn";
+import { DataCollections } from "../DataCollection";
 
 export default function Collections() {
   function HomeProducts() {
